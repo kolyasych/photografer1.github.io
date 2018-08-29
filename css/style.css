@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: FT sans, serif;
+}
+
+
+
+.about_studio {
+	background: rgb(47,48,52);
+	color:white;
+}
+
+
+.container-fluid{
+	padding-top: 30px;
+	
+}
+
+.container {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+@media (min-width: 1100px){
+.about_studio p {
+	line-height: 35px;
+	font-size: 1.2em;
+	margin: 0 40px 40px 33%;
+	}
+}
+
+#about_studio_p {
+	color: #a3a3a3;
+}
+
+#melisa {
+	font-size: 2.6em;
+}
+
+.prize p {
+	margin-top: 10px;
+	font-size: 1.2em;
+}
+
+#prize_1, #prize_2 {
+	color: #a3a3a3;
+	font-size: 0.8em;
+}
+
+#prize_1 {
+	font-style: italic;
+}
+
+.portfolio {
+	background: rgb(47,48,52);
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio h1 {
+	font-size: 2.5em;
+	padding-bottom: 10px;
+	color: white;
+	font-weight: 400;
+}
+
+.portfolio p {
+	color: #a3a3a3;
+	font-size: 1.5em;
+	padding-bottom: 10px;
+}
+
+.portfolio .col-md-4 {
+	margin-bottom: 30px;
+}
+
+#port p {
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	line-height: 30px;
+	font-size: 1.1em;
+}
+
+@media (max-width: 700px){
+	#port p {
+	text-align: left;
+	font-size: 0.8em;
+	padding-top: 10px;
+}
+}
+
+#port p:hover {
+	color: #a3a3a3;
+}
+
+.message {
+	background: url(../img/message.jpg) no-repeat;
+	height: 500px;
+		
+}
+
+.message h1 {
+	font-weight: 400;
+	padding: 50px 0 20px 90px;
+}
+
+.message p {
+	font-size: 1.2em;
+	padding-left: 90px;
+}
+
+@media (max-width: 993px) {
+	.message h1, .message p {
+	padding: 10px 0 10px 20px;
+	}
+	}
+
+ input, textarea{
+	height: 40px;
+	border-radius: 5px;
+	padding-left: 10px;
+	background: #ebe9ea;
+	width: 30%;
+	border: 1px solid black;
+	 margin-bottom: 20px;
+	
+}
+
+@media (max-width: 993px) {
+	input, textarea {
+	    width: 60%;	
+	} }
+
+@media (max-width: 993px) {
+	.message {
+		background: #ebe9ea;
+	}
+
+textarea {
+	height: 90px;
+	padding-top: 20px;
+	margin-left: 119px;
+	background: #ebe9ea;
+}
+
+#submit {
+	width: 10%;
+	padding-left: 0px;
+	border: 2px solid black;
+	font-size: 1em;
+}
+
+@media (max-width: 993px) {
+	#submit {
+		width: 40%
+	} }
+
+#submit:hover {
+	background-color: black;
+	color: white;
+}
